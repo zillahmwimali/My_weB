@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: sans-serif;
+    
+}
+nav{
+    display:inline-block;
+    background: burlywood; 
+    height:80%;
+    width: 100%;
+    margin: 20px;
+    text-align:left; 
+    padding:20px;
+    margin:0;
+    padding:0;
+    
+}
+nav ul{
+    float: right;
+   list-style: right;
+   margin-right: 20px;
+}
+nav li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+    
+}
+nav ul li a{
+    color: rgb(32, 32, 6);
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 5px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+a.one,a:hover{
+    background: rgb(117, 103, 103);
+    transition: .7s;
+}
+.image{
+     position: center;
+     margin-left: 80px;
+     background-image: url(/Images/zee.jpeg);
+     text-align: center;
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+  
+    font-size:18px;
+    margin-right: 4px;
+    background-color: rgb(226, 219, 219);
+}
+#about{
+    margin-top: -55px ;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+    color: rgb(59, 57, 57);
+}
+.profile{
+    height: 350px;
+    border-radius: 600px;
+
+}
+.container{
+    width: 100;
+    display: flex;
+    background: linen;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+.midcontainerL{
+    flex:2;
+    background: rgb(155, 173, 173);
+    padding: 30px;
+    font-size:20px ;
+    font-family:roboto,sans-serif ;
+}
+.midcontainerM{
+    flex: 2;
+    background: rgb(125, 133, 136);
+    padding: 30px;
+    font-size:20px ;
+    font-family:roboto,sans-serif ;
+    
+}
+@media screen and (max-width:768px) {
+    .container{
+        flex-direction: column;
+    }
+    
+}
+.content{
+    margin: 80px;
+    padding: 0 0 60px 30px;
+    width:80%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
